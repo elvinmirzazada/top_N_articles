@@ -1,6 +1,6 @@
 # Top Articles by Number of Comments (Non-Async Version)
 
-This project fetches articles from the API and returns the titles of the top 10 articles with the most comments, in descending order of the number of comments.
+This project fetches articles from the API and returns the titles of the top N articles with the most comments, in descending order of the number of comments.
 
 ## Requirements
 
@@ -29,7 +29,7 @@ This project fetches articles from the API and returns the titles of the top 10 
 
 - `fetch_all_articles()`: Fetches all articles from all available pages of the API.
 - `filter_and_sort_articles(articles)`: Filters articles to only include those with a title or story title, and sorts them by the number of comments in descending order.
-- `get_top_10_articles(articles)`: Retrieves the top 10 articles with the most comments and extracts their titles.
+- `get_top_n_articles(articles)`: Retrieves the top N articles with the most comments and extracts their titles.
 - `main()`: The main function to fetch, filter, sort, and print the top 10 articles by the number of comments. Also measures the execution time.
 
 ## Example Output
