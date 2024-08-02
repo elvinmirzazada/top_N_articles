@@ -3,9 +3,6 @@ import aiohttp
 import time
 
 
-MAX_CONCURRENT_TASKS = 5
-
-
 async def fetch_page(session, page_number):
     """
     Fetches a specific page of articles from the API.
